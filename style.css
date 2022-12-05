@@ -1,0 +1,248 @@
+.nav{
+    background-color: rgb(229, 236, 236);
+    width: 100%;
+    min-height: 90px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr ;
+    position: erty;
+    top: 0;
+}
+.none{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+ 
+
+   }h1,h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+   }
+   .ntwo{
+    display: grid;
+    justify-items: center;
+
+   }
+   ul{
+    list-style-type: none;
+    display: flex;
+   }
+   li{
+    margin-right: 45px;
+    margin-top: 40px;
+    font-size: 24px;
+   }
+   a{
+    text-decoration: none;
+    color: black;
+   }
+   .nsix{
+    display: grid;
+    justify-items:center ;
+    grid-template-columns: 1fr 1fr;
+
+   }
+   .nsix img{
+    margin-top: 30px;
+   }
+   .veg{
+    border:2px solid black;
+    background-color:whitesmoke;
+    
+    background-image: url("images/banner-bg.webp");
+    
+    }
+    .pine{
+        text-align: center;
+        color:blueviolet;
+        font-size: 50px;
+        font-style: bold;
+    }
+    .pine1{
+        color:rgb(40, 37, 37);
+        text-align: center;
+        font-size: 25px;
+    }
+    #hop{
+        border-color: blueviolet;
+        color:blueviolet;
+        margin: auto;
+        display: block;
+        font-size: large;
+    }
+    #hop:hover{
+       background-color: orange;
+    }
+    .uio{
+        border:2px solid white;
+        background-color:whitesmoke;
+       
+        display: flex;
+        justify-content: center;
+    padding:20px;
+    }
+    .uio1{
+        font-size: 50px;
+        font-style: bold;
+        color:black;
+    }
+    .uio2{
+        font-size: 50px;
+        font-style: bold;
+        color:white;
+        background-color: orangered;
+    }
+    .boy{
+        border:2px solid black;
+        background-color:whitesmoke;
+        
+    }
+    #boy1{
+        margin: auto;
+        display: block;
+        border-radius: 50%;
+        
+    }
+    .star{
+        margin-left: 660px;
+    }
+
+
+    .pine2{
+        text-align: center;
+        font-size: 25px;
+        color:black;
+        
+    }
+    
+    
+    .pine3{
+        font-style: bold;
+        font-weight: 200;
+        color:black;
+        text-align: center;
+        font-size: 30px;
+      
+    }
+   
+    .boy:hover{
+        border:2px solid black;
+    }
+    .skull1{
+        display: flex;
+        justify-content: center;
+    padding:20px;
+    background-color: rgb(179, 174, 174);
+    border: 1px solid white;
+    
+    
+    }
+    .head1{
+        font-size: 50px;
+        font-style: bold;
+        color:black;
+    }
+    .head2{
+        font-size: 50px;
+        font-style: bold;
+       color:white;
+       background-color: orangered;
+    }
+    .bbox{
+        height:380px;
+        width:280px;
+        border:2px solid rgb(243, 237, 237);
+        display:flex;
+        flex-direction:column;
+       padding:20px;
+        margin:8px; 
+        border-radius: 10px;
+        background-color: white;
+    }
+    .erter{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(179, 174, 174);
+    }
+    #break{
+        border:1px solid rgb(163, 159, 159);
+    height:1px;
+    width: 240px; 
+    background-color:rgb(197, 193, 193) ;
+    }
+    #qyu{
+        text-align:left;
+        color:black;
+    }
+    #button{
+        background-color:white;
+        color:black;
+        height: 35px;
+        width:100px;
+        border:2px solid black;
+        border: 2px;
+    
+    
+    }
+    .sol{
+        margin-top: 30px;
+    }
+    #intext{
+        color:darkred;
+        }
+        #button:hover{
+    background-color: yellow;
+        }
+        i{
+            color: orange;
+        }    
+        .footie{
+            background: #fff;
+        }
+        
+        .footie .boxcontainer{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+            gap:1.5rem;
+        }
+        
+        .footie .boxcontainer .box h3{
+            font-size: 2.5rem;
+            color:var(--black);
+            padding:1rem 0;
+        }
+        
+        .footie .boxcontainer .box h3 i{
+            color:var(--orange);
+        }
+        
+        .footie .boxcontainer .box .tani{
+            display: block;
+            font-size: 1.5rem;
+            color:var(--light-color);
+            padding:1rem 0;
+        }
+        
+        .footie .boxcontainer .box .tani i{
+            color:var(--orange);
+            padding-right: .5rem;
+        }
+        
+        .footie .boxcontainer .box .tani:hover i{
+            padding-right: 2rem;
+        }
+        
+        
+        .footie .boxcontainer .box p{
+            pine-height: 1.8;
+            font-size: 1.5rem;
+            color:var(--light-color);
+            padding:1rem 0;
+        }
+        
+        
+        
+        .footie .boxcontainer .box .share a:hover{
+            background: var(--orange);
+            color: #fff;
+        }
